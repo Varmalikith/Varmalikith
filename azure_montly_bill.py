@@ -10,7 +10,7 @@ account_name = "daywisebilling"
 STORAGEACCOUNTURL = f"https://{account_name}.blob.core.windows.net"
 STORAGEACCOUNTKEY = "jaCG7aC1Ilp7vpe9xDko8eMwqMTMiFNyY+ArzFTTkoutRQGkAt7KqkeB1HOX4d7cWyKKatRLLIxI+AStcecHHA=="
 CONTAINERNAME = "day-wise-billing"
-BLOBNAME_PREFIX = "dev/DailyBilling/"
+BLOBNAME_PREFIX = "dev/DailyBilling/"   
 
 # Define the date range                          #Download the latest updated csv file within the date range
 start_date = datetime(2023, 1, 1)
